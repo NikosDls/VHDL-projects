@@ -1,3 +1,4 @@
 # VHDL-projects
 All master VHDL work
-Ανάπτυξη Τηλεπικοινωνιακών Συστημάτων σε Υλικό
+
+Semester work and project for lesson "Ανάπτυξη Τηλεπικοινωνιακών Συστημάτων σε Υλικό"
