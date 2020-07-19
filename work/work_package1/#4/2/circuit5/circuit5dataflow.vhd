@@ -1,0 +1,21 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY circuit5 IS
+	PORT(
+        A0: IN STD_LOGIC;
+        A1: IN STD_LOGIC;
+        D0: OUT STD_LOGIC;
+		D1: OUT STD_LOGIC;
+		D2: OUT STD_LOGIC;
+		D3: OUT STD_LOGIC
+    );
+END circuit5;
+
+ARCHITECTURE dataflow OF circuit5 IS
+BEGIN
+	D0 <= NOT A0 AND NOT A1;
+	D1 <= A0 AND NOT A1;
+	D2 <= A1 AND NOT A0;
+	D3 <= A1 AND A0;
+END dataflow;
